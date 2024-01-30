@@ -4,7 +4,8 @@
     "plugin:import/errors",
     "plugin:react/recommended",
     "plugin:jsx-a11y/recommended",
-    "prettier" // this always goes last
+    "plugin:react-hooks/recommended",
+    "prettier" // this always goes last, turns off rules others may enable
   ],
   "rules": {
     "react/prop-types": 0, // want types use TS
